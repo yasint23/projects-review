@@ -402,7 +402,7 @@ Create new Notification
 eval "$(ssh-agent)" (your local)
 ssh-add <pem-key>   (your local )
 ssh -A ec2-user@<Public IP or DNS name of NAT instance> (your local)
-ssh ubuntu@<Public IP or DNS name of private instance>  (NAT instance)
+ssh ubuntu@<Public IP / Private Ip or DNS name of private instance>  (NAT instance)
 You are in the private EC2 instance
 ``` -->
 
